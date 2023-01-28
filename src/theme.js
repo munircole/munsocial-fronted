@@ -35,7 +35,7 @@ export const colorTokens = {
 
 export const themeSettings = (mode) => {
     return {
-        pallete: {
+        palette: {
             mode: mode,
             ...( mode === "dark" ? {
                 //color pallete for dark mode
@@ -48,7 +48,7 @@ export const themeSettings = (mode) => {
                     dark: colorTokens.grey[100],
                     main: colorTokens.grey[200],
                     mediummain: colorTokens[300],
-                    mediun: colorTokens[400],
+                    medium: colorTokens[400],
                     light: colorTokens[700],
                 },
                 background: {
@@ -66,7 +66,7 @@ export const themeSettings = (mode) => {
                     dark: colorTokens.grey[700],
                     main: colorTokens.grey[500],
                     mediummain: colorTokens[400],
-                    mediun: colorTokens[300],
+                    medium: colorTokens[300],
                     light: colorTokens[50],
                 },
                 background: {
@@ -78,15 +78,15 @@ export const themeSettings = (mode) => {
 
         typography: {
             fontFamily: ["Rubik", "sans-serif"].join(","),
-            fontSoze: 12,
+            fontSize: 12,
             h1: {
                 fontFamily: ["Rubik", "sans-serif"].join(","),
-                fontSoze: 40,
+                fontSize: 40,
             },
 
             h2: {
                 fontFamily: ["Rubik", "sans-serif"].join(","),
-                fontSoze: 32,
+                fontSize: 32,
             },
 
             h3: {
@@ -96,17 +96,17 @@ export const themeSettings = (mode) => {
 
             h4: {
                 fontFamily: ["Rubik", "sans-serif"].join(","),
-                fontSoze: 20,
+                fontSize: 20,
             },
 
             h5: {
                 fontFamily: ["Rubik", "sans-serif"].join(","),
-                fontSoze: 16,
+                fontSize: 16,
             },
 
             h6: {
                 fontFamily: ["Rubik", "sans-serif"].join(","),
-                fontSoze: 14,
+                fontSize: 14,
             },
 
 
